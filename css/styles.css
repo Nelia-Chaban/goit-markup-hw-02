@@ -1,0 +1,160 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+/*===========================COMPONENTS================== */
+.botton {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/*======================= HEADER ======================*/
+.header {
+}
+.navigation {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.first-word-logo {
+  color: #4d5ae5;
+}
+
+.header-list {
+}
+
+.header-list-item {
+}
+
+.header-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.header-address {
+}
+.header-addres-list {
+}
+.header-mail-item {
+}
+.header-mail-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-phone-item {
+}
+.header-phone-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*=============================== HERO ====================*/
+.hero {
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+/* =====================PRINCIPLES OF WORKS ===================== */
+.principles {
+}
+.principles-main-title {
+}
+.principles-list {
+}
+
+.principles-item {
+}
+.principles-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.principles-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-principles-item {
+}
+
+/*========================= WORK================= */
+.work {
+}
+
+.work-list {
+}
+
+.work-list-item {
+}
+/* ==========================TEAM============================ */
+
+.team-list {
+}
+.team-list-item {
+}
+.team-name-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ======================FOOTER=========================== */
+.footer {
+}
+.logo {
+}
+.first-word-logo {
+}
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
