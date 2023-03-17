@@ -1,3 +1,6 @@
+:root {
+  --title-text-color: #2e2f42;
+}
 .list {
   list-style: none;
 }
@@ -88,7 +91,7 @@ body {
 /*=============================== HERO ====================*/
 .hero {
 }
-.hero-title {
+.main-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
