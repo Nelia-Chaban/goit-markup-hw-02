@@ -10,6 +10,23 @@ body {
   color: #434455;
 }
 /*===========================COMPONENTS================== */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+.header-logo {
+  color: #2e2f42;
+}
 .botton {
   font-family: inherit;
   font-weight: 500;
@@ -32,24 +49,6 @@ body {
   text-transform: capitalize;
 }
 /*======================= HEADER ======================*/
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.footer-logo {
-  color: #f4f4fd;
-}
-.header-logo {
-  color: #2e2f42;
-}
 
 .header-list {
 }
