@@ -66,10 +66,11 @@ body {
   color: #404bbf;
 }
 .header-address {
+  font-style: normal;
 }
 .header-addres-list {
 }
-.header-mail-item {
+.header-item {
 }
 .header-mail-link {
   font-size: 16px;
@@ -81,7 +82,7 @@ body {
   color: #404bbf;
 }
 
-.header-phone-item {
+.header-item {
 }
 .header-phone-link {
   font-size: 16px;
