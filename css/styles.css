@@ -72,13 +72,13 @@ body {
 }
 .header-item {
 }
-.header-link {
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-link:is(:hover, :focus) {
+.address-link:is(:hover, :focus) {
   color: #404bbf;
 }
 
