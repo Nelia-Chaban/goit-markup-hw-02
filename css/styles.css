@@ -42,10 +42,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.first-word-logo {
   color: #4d5ae5;
+}
+.second-word-logo {
+  color: #2e2f42;
 }
 
 .header-list {
