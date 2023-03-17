@@ -20,6 +20,10 @@ body {
   color: #ffffff;
   background: #4d5ae5;
 }
+.botton:is(:hover, :focus) {
+  background: #404bbf;
+}
+
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -60,7 +64,9 @@ body {
   letter-spacing: 0.02em;
   color: inherit;
 }
-
+.header-list-link:is(:hover, :focus) {
+  color: #404bbf;
+}
 .header-address {
 }
 .header-addres-list {
@@ -73,6 +79,10 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.header-mail-link:is(:hover, :focus) {
+  color: #404bbf;
+}
+
 .header-phone-item {
 }
 .header-phone-link {
@@ -80,6 +90,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.header-phone-link:is(:hover, :focus) {
+  color: #404bbf;
 }
 /*=============================== HERO ====================*/
 .hero {
@@ -90,6 +103,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  background: #2e2f42;
 }
 /* =====================PRINCIPLES OF WORKS ===================== */
 .principles {
@@ -157,4 +171,47 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+/*=========================== PORTFOLIO================================= */
+
+.portfolio-hero-list {
+}
+
+.list-item-btn {
+}
+
+.hero-item-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+.hero-item-btn:is(:hover, :focus) {
+  color: #ffffff;
+  background: #404bbf;
+}
+.main-portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-work-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-work-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
