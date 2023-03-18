@@ -151,7 +151,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: green;
+  color: var(--title-text);
 }
 .team-position {
   font-size: 16px;
