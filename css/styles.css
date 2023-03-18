@@ -126,6 +126,11 @@ body {
 
 /*========================= WORK================= */
 .work-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--title-text);
 }
 
@@ -149,6 +154,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--title-text);
 }
 .team-position {
   font-size: 16px;
