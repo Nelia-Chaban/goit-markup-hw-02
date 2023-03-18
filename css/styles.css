@@ -1,5 +1,9 @@
 :root {
-  --title-text-color: #2e2f42;
+  --title-text: #2e2f42;
+  --subtitle: #434455;
+  --primary-brand-pgup:#2e2f42;
+  --primary-brand-pgdn:#f4f4fd;
+
 }
 .list {
   list-style: none;
@@ -10,7 +14,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--subtitle)
   background-color: #ffffff;
 }
 /*===========================COMPONENTS================== */
@@ -26,10 +30,10 @@ body {
   color: #4d5ae5;
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: var(--primary-brand-pgdn)
 }
 .header-logo {
-  color: #2e2f42;
+  color: var(--primary-brand-pgup);
 }
 .botton {
   font-family: inherit;
@@ -113,7 +117,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--subtitle);
 }
 .section-principles-item {
 }
@@ -148,7 +152,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--subtitle);
 }
 /* ======================FOOTER=========================== */
 .footer {
@@ -195,16 +199,16 @@ body {
 }
 .portfolio-list-item {
 }
-.portfolio-work-title {
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio-work-description {
+.portfolio-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--subtitle);
 }
