@@ -1,9 +1,10 @@
 :root {
   --title-text: #2e2f42;
   --subtitle: #434455;
-  --primary-brand-pgup:#2e2f42;
-  --primary-brand-pgdn:#f4f4fd;
-
+  --primary-brand-pgup: #2e2f42;
+  --primary-brand-pgdn: #f4f4fd;
+  --background-body: #ffffff;
+  --background-hero: #2e2f42;
 }
 .list {
   list-style: none;
@@ -14,8 +15,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--subtitle)
-  background-color: #ffffff;
+  color: var(--subtitle);
+  background-color: var(--background-body);
 }
 /*===========================COMPONENTS================== */
 .logo {
@@ -30,7 +31,7 @@ body {
   color: #4d5ae5;
 }
 .footer-logo {
-  color: var(--primary-brand-pgdn)
+  color: var(--primary-brand-pgdn);
 }
 .header-logo {
   color: var(--primary-brand-pgup);
@@ -101,7 +102,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: #2e2f42;
+  background-color: var(--background-hero);
 }
 /* =====================PRINCIPLES OF WORKS ===================== */
 
@@ -112,6 +113,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--title-text);
 }
 .principles-description {
   font-size: 16px;
@@ -123,7 +125,8 @@ body {
 }
 
 /*========================= WORK================= */
-.work {
+.work-title {
+  color: var(--title-text);
 }
 
 .work-list {
