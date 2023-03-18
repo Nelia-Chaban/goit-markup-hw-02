@@ -145,7 +145,15 @@ body {
 .team-list-item {
   background-color: #ffffff;
 }
-.team-name-title {
+.team-main-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text);
+}
+.team-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
