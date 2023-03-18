@@ -95,6 +95,7 @@ body {
 
 /*=============================== HERO ====================*/
 .hero {
+  background-color: var(--background-hero);
 }
 .main-title {
   font-size: 56px;
@@ -102,7 +103,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: var(--background-hero);
 }
 /* =====================PRINCIPLES OF WORKS ===================== */
 
